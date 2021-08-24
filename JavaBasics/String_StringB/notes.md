@@ -1,3 +1,8 @@
+![Comparision](StringVStringBufferVStringBuilder.PNG)
+
+
+
+
 The StringBuilder and StringBuffer class creates a mutable sequence of characters.
 Different than String, StringBuilder and StringBuffer are mutable. Both classes create a mutable sequence of characters. And they are very much similar to each other.
 
