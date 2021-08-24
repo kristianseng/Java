@@ -1,5 +1,5 @@
 ![Summary](Implementations.PNG)
-![WhenToUse](WhenToUse.PNG)
+![WhenToUse](whenToUse.png)
 
 
 **List** in Java provides **ordered and indexed collection** which **may contain duplicates**. 
