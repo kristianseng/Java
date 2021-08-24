@@ -6,7 +6,7 @@
 
 ![ArrayListLinkedList](ArrayListLinkedList.png)
 
-
+ArrayList provides constant time for search operation, so it is better to use ArrayList if searching is more frequent operation than add and remove operation. The LinkedList provides constant time for add and remove operations. So it is better to use LinkedList for manipulation.
 
 **Set** interface provides an **unordered** collection that **doesn't allow duplicates**.
 
