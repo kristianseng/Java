@@ -1,3 +1,6 @@
+// need to be put in async task or another tread -> not to block application
+
+
 package com.example;
 import java.io.BufferedReader;
 import java.io.IOException;
