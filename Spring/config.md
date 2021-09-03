@@ -1,3 +1,37 @@
+
+**bean** -> class (object) spring is aware of.
+
+**Spring beans repository** -> all objects spring is aware of. Created and putted in the repo.
+
+**Beans are define by adding @Component or @Bean annotation with @Configuration (@SpringBootApplication has it)
+
+
+Dependecy Injection --> helps manage dependencies betwen objects
+
+
+**Autowiring feature of spring framework enables you to inject the object dependency implicitly**
+
+
+Dependecy injection types -> constructor based, setter based, field based(not the best practice).
+
+
+In some cases if constructor based cannot be used, setter is viable
+contructor based injection is preferred -> can make dependecies final
+
+**field based injection** - not recommended
+
+
+
+What are endpoints -> point of contact
+
+
+@Restcontroller + @RequestMapping -> class holds points of contact or endpoint
+
+
+@RequestBody -> http body
+
+
+
 Let’s take a look at the project you just created, and get familiar with what each file contains. The entry point for Spring boot application is a class file named Application. @SpringBootApplication is a convenience annotation that add all of the following.
 
 @Configuration tags the class as a source of bean definitions for the application context.
