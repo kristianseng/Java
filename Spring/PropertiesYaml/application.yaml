@@ -1,0 +1,4 @@
+server:
+  port: 8081
+demo:
+  sentence: This sentence is coming from properties
