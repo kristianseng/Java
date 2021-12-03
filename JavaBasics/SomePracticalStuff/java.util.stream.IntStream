@@ -1,0 +1,10 @@
+// Find first number that is not Consecutive in an array;
+
+import java.util.stream.*;
+
+class FirstNonConsecutive {
+    static Integer find(final int[] array) {
+      return IntStream.range(1, array.length).filter(i -> array[i-1] != array[i]-1)
+                     .mapToObj(x -> new Integer(array[x])).findFirst().orElse(null);
+    }
+}
